@@ -1,0 +1,179 @@
+body{
+  padding:0px;
+  margin:0px;
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+#container{
+  margin: 0 auto;
+  width:40%;
+  background: lightblue;
+  display: block;
+  padding:50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+img{
+
+  padding:0px;
+  margin: 0px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+
+.caps {
+  text-transform: capitalize;
+}
+
+#bottom{
+background-color: white;
+padding:10px;
+border-radius: 5px;
+}
+
+.lower{
+padding:7px;
+border-bottom: 1px dotted lightgray;
+}
+
+.lower:last-child{
+  border-bottom: none;
+}
+
+.upper:first-child{
+  color:white;
+}
+
+.upper:nth-child(3){
+  color:white;
+
+}
+
+.menuopenbackground{
+opacity:0.4;
+}
+
+#changemenu{
+
+  position: absolute;
+  left:43%;
+  top:40%;
+  z-index: 2;
+  border:1px solid black;
+  padding: 40px;
+  border-radius: 10px;
+  background-color:lightgray;
+
+}
+
+#change-container{
+  width:100%;
+  margin:0 auto;
+}
+
+.in{
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    top:0%;
+  }
+
+  to {
+    top:40%;
+  }
+}
+
+.out{
+  animation-duration: 0.8s;
+  animation-name: out;
+}
+
+
+@keyframes out {
+  from {
+    top:40%;
+  }
+
+  to {
+    top:0%;
+  }
+}
+
+
+
+
+
+
+
+
+#changemenu input{
+  display:block;
+  margin-bottom: 30px;
+}
+#changemenu h3{
+  padding:0px;
+  margin:0px;
+}
+
+#changemenu li {
+  padding:5px 0px 5px 0px;
+  
+}
+
+#close, #savechanges{
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 1px solid grey;
+  margin-right:10px;
+  
+}
+
+
+#changecity{
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 1px solid grey;
+  margin-top:20px;
+  width: 70%
+}
+
+button#changemeasurement{
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 1px solid grey;
+  margin-top:20px;
+  width: 20%
+}
+
+
+
+@media screen and (max-width:700px){
+
+  #container{
+    width:60%;
+  }
+
+  #changemenu{
+
+    position: absolute;
+    left:27%;
+  
+}
+}
+.firstone{
+  display: inline;
+
+
+}
