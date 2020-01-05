@@ -1,0 +1,64 @@
+body{
+  display: grid;
+  grid-template-rows: 600px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+}
+
+body::after{
+
+  height: 100%;
+  content: "";
+  background:url(https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  padding: 0;
+}
+
+#container{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(90px, 1fr));
+  grid-template-rows: 1fr;
+
+column-gap: 40px;
+row-gap: 10px;
+width: 85%;
+margin: 0 auto;
+}
+
+
+
+.key{
+  border:2px solid black;
+  padding: 20px;
+  align-self: center;
+  transition: all 0.07s;
+  color: black;
+  font-size: 17px;
+  font-weight: 900;
+
+}
+
+
+
+h3{
+  padding:0px;
+  margin:0px;
+}
+
+.playing{
+  border:2px solid yellow;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px yellow;
+  color:yellow;
+}
