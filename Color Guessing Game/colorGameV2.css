@@ -1,0 +1,93 @@
+body{
+  margin:0;
+  background-color: grey;
+}
+.colortoggle{
+  background-color: grey;
+}
+.gowhite{
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#generatebutton {
+  border-radius: 20px;
+}
+
+#reset {
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.containerhead{
+  text-align: center;
+  max-width:100%;
+  margin: 0 auto;
+margin-bottom: 10px;
+padding-top:10px;
+padding-bottom:5px;
+border-bottom: 1px solid black;
+background-color: white;
+}
+
+.containerheadbottom{
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  
+}
+.newcolors{
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  height:1px;
+}
+
+.sub{
+  text-align: center;
+  margin:0 auto;
+  max-width:600px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.playButtons{
+ display: inline-block;
+  width:30%;
+  margin:1.6%;
+}
+
+.container{
+  max-width:600px;
+  margin: 0 auto;
+}
+.square{
+  width:30%;
+  background:purple;
+  padding-bottom:30%;
+  float:left;
+  margin:1.5%;
+  border-radius: 15%;
+ 
+}
+/*
+.container2{
+  
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.squares{
+  width:20%;
+  background: yellow;
+  padding-bottom:20%;
+  float:left;
+  margin: 2.5%;
+
+}
+*/
