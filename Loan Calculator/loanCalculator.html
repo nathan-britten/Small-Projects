@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="loanCalculator.css">
+  <!-- <script src="https://kit.fontawesome.com/93a45c1486.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="input">
+      <div id="theError" class="errorMessage errorMessage-hidden">
+        <p>Please enter a valid amount</p>
+      </div>
+      <h2>Loan Calculator</h2>
+      <div id="amount" class="input-item">
+        <i class="fas fa-dollar-sign"></i>
+        <label for="loanAmount">Loan Amount</label>
+        <input type="text" name="loanAmount" id="loanAmount" placeholder="Loan Amount">
+      </div>
+      <div id="interest" class="input-item">
+        <label for="interest">Interest Rate</label>
+          <i class="fas fa-percentage"></i>
+          <input type="text" name="interest" id="interest" placeholder="Annual Interest Rate">
+      </div>
+      <div id="repaymentyears" class="input-item">
+          <label id="last"for="repayment">Loan Term</label>
+          <input type="text" name="repayment" id="repayment" placeholder="Repayment Years">
+      </div>
+      <button id="calculateButton">Calculate</button>
+
+    </div>
+
+    <div class="output">
+      <h4>Results</h4>
+      <div id="perMonth" class="output-item">
+        <p>Monthly Payment</p>
+        <input type="text" id="payPerMonth">
+      </div>
+      <div id="totalPayment" class="output-item">
+          <p>Total Payment</p>
+          <input type="text"  id="totalToPay">
+      </div>
+      
+      <div id="totalInterest" class="output-item">
+          <p>Total Interest</p>
+          <input type="text"  id="amountOfInterest">
+      </div>
+
+      <div class="outsideline"></div>
+
+    </div>
+
+
+  </div>
+
+
+  
+
+  
+
+
+
+
+  <script src="loanCalculator.js"></script>
+</body>
+</html>

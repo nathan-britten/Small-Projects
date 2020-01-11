@@ -1,0 +1,146 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family: sans-serif;
+  background:grey;
+  
+}
+
+.container{
+  width:50%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 5px 5px 5px; black;
+  text-align: center;
+  padding: 10px 0 30px 0;
+  margin-top:20px;
+  border-radius:10px;
+}
+
+.input-item{
+  margin: 4px 0px 4px 0px;
+}
+.input input{
+  text-align: center;
+}
+
+.input label{
+  font-size: 11px;
+  text-align: right;
+}
+#last{
+  margin-right:11px;
+}
+
+.output p::after{
+  border: 5px solid black;
+}
+.output p{
+  font-size: 12px;
+  display: inline;
+  padding: 0px 5px 0px 5px;
+}
+
+.output-item{
+  border:1px solid black;
+  width: 90%;
+  margin:0 auto;
+  margin-bottom: 10px;
+  background-color: rgb(206, 207, 218);
+}
+.output-item input{
+  border: 0px;
+    background-color: rgb(206, 207, 218);
+text-align: center;
+margin-left:0px;
+}
+
+
+
+
+
+
+
+.fas {
+  background-color:grey;
+  color:;
+  width:20px;
+  height:20px;
+  text-align: center;
+  padding-top:3px;
+}
+
+.output{
+  display: none;
+}
+
+.show{
+display:initial;
+}
+
+.errorMessage{
+ 
+  background:lightsalmon;
+  padding: 5px;
+  width:80%;
+  display: block;
+  margin:0 auto;
+  opacity:1;
+}
+
+.errorMessage-hidden{
+  display: none;
+}
+
+.errorMessage-transition.errorMessage-hidden {
+  display: block;
+  opacity: 0;
+}
+
+
+.errorMessage-transition {
+transition:  opacity 1s ease;
+}
+
+
+.spinner{
+  width:100px;
+  height: 100px;
+  background-color:white;
+  border-radius: 50%;
+  margin: 0 auto;
+
+}
+
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to { 
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  .outsideline{
+
+    padding-top:10px;
+    width:15px;
+    height:50px;
+    background-color:#CECFDA;
+    border: 3px solid black;
+    border-radius:50%;
+    margin: 0 auto;
+    animation-name:            rotate; 
+    animation-duration:        1.35s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     
+    }
+
+    @media only screen and (max-width: 600px){
+      .container{
+        width:80%;
+      }
+    }
