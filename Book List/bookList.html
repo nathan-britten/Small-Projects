@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Book List</title>
+  <link rel="stylesheet" href="bookList.css">
+</head>
+<body>
+  <h1 id="main-heading">My Books</h1>
+  <div class="input">
+    <label class="input-item" for="booktitle">Book Title</label>
+    <input class="input-item" type="text" id="book-title" name="booktitle">
+
+    <label class="input-item" for="bookauthor">Author</label>
+    <input class="input-item" type="text" id="book-author" name="bookauthor">
+
+    <label class="input-item" for="isbn-number">ISBN</label>
+    <input class="input-item" type="text" id="isbn" name="isbn-number">
+
+    <button id="submit-button">Submit</button>
+
+  </div>
+  
+  <div class="output">
+    <ul class="book-heading" id="first">
+      <li class="bl-heading" >Book Title</li>
+      <li class="bl-heading">Author</li>
+      <li class="bl-heading">ISBN</li>
+    </ul>
+
+
+  </div>
+<script src="bookList.js"></script>
+<script src="https://kit.fontawesome.com/93a45c1486.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
