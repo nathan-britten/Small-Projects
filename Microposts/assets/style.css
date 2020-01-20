@@ -1,8 +1,0 @@
-.delete {
-  color:red;
-}
-
-
-.delete, .edit{
-  display: inline;
-}
