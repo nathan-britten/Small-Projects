@@ -154,6 +154,25 @@ opacity:0.4;
   width: 70%
 }
 
+button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 1px solid #31597C;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  padding: 5px 10px 5px 10px;
+  margin: 10px 5px 0px 5px;
+  border-radius: 5px;
+  color: #444444;
+}
+
+button:hover {
+  background-color: #31597C;
+  color:white;
+  transform: scale(1.1)
+}
+
 button#changemeasurement{
   padding: 7px;
   border-radius: 10px;
@@ -172,9 +191,8 @@ button#changemeasurement{
   }
 
   #changemenu{
-    padding:20px;
+    padding:10px;
     position: absolute;
-
   
 }
 }
