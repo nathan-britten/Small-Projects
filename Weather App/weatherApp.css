@@ -1,17 +1,17 @@
 body{
   padding:0px;
   margin:0px;
-  margin-top: 40px;
+  margin-top: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
 
 #container{
   margin: 0 auto;
-  width:40%;
+  width:30%;
   background: lightblue;
   display: block;
-  padding:50px;
+  padding:40px;
   text-align: center;
   border-radius: 10px;
 }
@@ -62,13 +62,14 @@ opacity:0.4;
 #changemenu{
 
   position: absolute;
-  left:43%;
-  top:40%;
+  left:50%;
+  transform: translateX(-50%);
+  top:25%;
+  box-shadow: 1px 1px 1px grey;
   z-index: 2;
-  border:1px solid black;
   padding: 40px;
   border-radius: 10px;
-  background-color:lightgray;
+  background-color:rgb(245, 240, 240);
 
 }
 
@@ -88,7 +89,7 @@ opacity:0.4;
   }
 
   to {
-    top:40%;
+    top:25%;
   }
 }
 
@@ -166,9 +167,9 @@ button#changemeasurement{
   }
 
   #changemenu{
-
+    padding:20px;
     position: absolute;
-    left:27%;
+
   
 }
 }
