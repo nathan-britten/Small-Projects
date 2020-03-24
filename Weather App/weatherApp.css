@@ -72,6 +72,11 @@ opacity:0.4;
   background-color:rgb(245, 240, 240);
 
 }
+.error-message{
+  background-color: rgb(206, 57, 57);
+  color:white;
+  text-align: center;
+}
 
 #change-container{
   width:100%;
